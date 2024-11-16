@@ -4,35 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    
     <style>
 
         .container{
             display: grid;
-            grid-template-columns: auto auto;
+            grid-template-columns: 1fr 1fr;
             border-style: solid;
             height: 600px;
             margin: 100px;
+            box-sizing: border-box;
         }
         
         .inner-grid1{
             display: grid;
-            grid-template-columns: auto auto auto;
-            background-color: green;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px;
             border-right: solid;
-            gap: 1px;
+            row-gap: 50px;
+            column-gap: 100px;
+            justify-content: center;
+            padding-top: 50px;
         }
         .box1{
             border-style: solid;
-            height: 50px;
-            width: 50px;
+            height: 100px;
+            width: 100px;
+            padding: 0px;
+            background-color: green;
         }
 
         .inner-grid2{
-            background-color: aqua;
+            display: grid;
+            grid-template-columns: 200px 200px;
+            grid-template-rows: 200px;
+            gap: 80px;
+            justify-content: center;
+            align-content: center;
         }
-
-
+        .box2{
+            border-style: solid;
+            height: 200px;
+            width: 200px;
+            background-color: green;
+        }
 
     </style>
 
