@@ -17,18 +17,20 @@
         height: auto;
         justify-content: space-around;
         margin: 30px;
+        background-color: #404E5C;
     }
     .box1{
-        height: 100px;
-        width: 150px;
+        height: 70px;
+        width: 100px;
         border-style: solid;
         margin-top: 30px;
         margin-bottom: 30px;
+        background-color: #4F6272;
     }
 
     .container2{
         display: grid;
-        grid-template-columns: 60%calc(40% - 10px);
+        grid-template-columns: 55%calc(45% - 10px);
         height: auto;
         margin: 30px;
         column-gap: 10px;
@@ -36,6 +38,37 @@
     .box2{
         height: 350px;
         border-style: solid;
+        background-color: #B7C3F3;
+    }
+    
+    @media screen and (max-width: 800px) {
+        .container1{
+            border: none;
+            grid-template-columns: auto;
+            justify-content: left;
+            row-gap: 15px;
+            background-color: white;
+        }        
+        .box1{
+            margin: 0px;
+            height: 60px;
+            width: 60px;
+            background-color: #05716c;
+        }
+
+        .container2{
+            grid-template-columns: auto;
+            row-gap: 20px;
+        }
+        .box2{
+            background-color: #1fbfb8;
+        }
+        .itemA{
+            width: 55%;
+        }
+        .itemB{
+            width: 45%;
+        }
     }
 
     </style>
@@ -50,8 +83,8 @@
     </div>
 
     <div class="container2">
-        <div class="box2 itmeA"></div>
-        <div class="box2 itmeB"></div>
+        <div class="box2 itemA"></div>
+        <div class="box2 itemB"></div>
     </div>
 
 </body>
