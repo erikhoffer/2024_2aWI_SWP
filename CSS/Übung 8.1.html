@@ -1,77 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <style>
-    *{
-        box-sizing: border-box;
-    }
-
-    .container1{
-        display: grid;
-        grid-template-columns: auto auto auto;
-        border-style: solid;
-        height: auto;
-        justify-content: space-around;
-        margin: 30px;
-        background-color: #404E5C;
-    }
-    .box1{
-        height: 70px;
-        width: 100px;
-        border-style: solid;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        background-color: #4F6272;
-    }
-
-    .container2{
-        display: grid;
-        grid-template-columns: 55%calc(45% - 10px);
-        height: auto;
-        margin: 30px;
-        column-gap: 10px;
-    }
-    .box2{
-        height: 350px;
-        border-style: solid;
-        background-color: #B7C3F3;
-    }
-    
-    @media screen and (max-width: 800px) {
-        .container1{
-            border: none;
-            grid-template-columns: auto;
-            justify-content: left;
-            row-gap: 15px;
-            background-color: white;
-        }        
-        .box1{
-            margin: 0px;
-            height: 60px;
-            width: 60px;
+        * {
+            box-sizing: border-box;
         }
 
-        .container2{
-            grid-template-columns: auto;
-            row-gap: 20px;
+        .container1 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            border-style: solid;
+            height: auto;
+            justify-content: space-around;
+            margin: 30px;
+            background-color: #404E5C;
         }
-        .itemA{
-            width: 55%;
-        }
-        .itemB{
-            width: 45%;
-        }
-    }
 
+        .box1 {
+            height: 70px;
+            width: 100px;
+            border-style: solid;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            background-color: #4F6272;
+        }
+
+        .container2 {
+            display: grid;
+            grid-template-columns: 55%calc(45% - 10px);
+            height: auto;
+            margin: 30px;
+            column-gap: 10px;
+        }
+
+        .box2 {
+            height: 350px;
+            border-style: solid;
+            background-color: #B7C3F3;
+        }
+
+        @media screen and (max-width: 800px) {
+            .container1 {
+                border: none;
+                grid-template-columns: auto;
+                justify-content: left;
+                row-gap: 15px;
+                background-color: white;
+            }
+
+            .box1 {
+                margin: 0px;
+                height: 60px;
+                width: 60px;
+            }
+
+            .container2 {
+                grid-template-columns: auto;
+                row-gap: 20px;
+            }
+
+            .itemA {
+                width: 55%;
+            }
+
+            .itemB {
+                width: 45%;
+            }
+        }
     </style>
 
 </head>
+
 <body>
-    
+
     <div class="container1">
         <div class="box1 item1"></div>
         <div class="box1 item2"></div>
@@ -84,4 +90,5 @@
     </div>
 
 </body>
+
 </html>

@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
-    <style>
 
-        .container{
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
             display: grid;
             grid-template-columns: 1fr 1fr;
             border-style: solid;
             height: 600px;
             margin: 100px;
-            box-sizing: border-box;
         }
-        
-        .inner-grid1{
+
+        .inner-grid1 {
             display: grid;
             grid-template-columns: 100px 100px 100px;
             grid-template-rows: 100px;
@@ -26,7 +29,8 @@
             justify-content: center;
             padding-top: 50px;
         }
-        .box1{
+
+        .box1 {
             border-style: solid;
             height: 100px;
             width: 100px;
@@ -34,7 +38,7 @@
             background-color: green;
         }
 
-        .inner-grid2{
+        .inner-grid2 {
             display: grid;
             grid-template-columns: 200px 200px;
             grid-template-rows: 200px;
@@ -42,16 +46,17 @@
             justify-content: center;
             align-content: center;
         }
-        .box2{
+
+        .box2 {
             border-style: solid;
             height: 200px;
             width: 200px;
             background-color: green;
         }
-
     </style>
 
 </head>
+
 <body>
     <div class="container">
         <div class="inner-grid1">
@@ -70,4 +75,5 @@
         </div>
     </div>
 </body>
+
 </html>
