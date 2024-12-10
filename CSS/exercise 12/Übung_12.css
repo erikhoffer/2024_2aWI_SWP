@@ -126,6 +126,13 @@ h1 {
     top: 10px;
 }
 
+.date {
+    position: relative;
+    top: 30px;
+    width: 230px;
+    background-color: yellow;
+}
+
 @media screen and (max-width: 870px) {
     .top-header {
         display: none;
