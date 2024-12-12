@@ -130,7 +130,17 @@ h1 {
     position: relative;
     top: 30px;
     width: 230px;
-    background-color: yellow;
+    background-color: #feef59;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F09A9D;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 870px) {
