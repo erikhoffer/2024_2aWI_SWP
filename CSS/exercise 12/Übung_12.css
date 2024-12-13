@@ -143,6 +143,11 @@ a:hover {
     text-decoration: underline;
 }
 
+.content-box {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
 @media screen and (max-width: 870px) {
     .top-header {
         display: none;
@@ -175,6 +180,10 @@ a:hover {
     .left-content {
         display: flex;
         flex-direction: row;
+    }
+
+    .content-box {
+        padding: 0px;
     }
 }
 
