@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.header {
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    backdrop-filter: saturate(1.8) blur(20px)
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 996px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.image-container {
+    height: 730px;
+    background-image: url("gift_large.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+.headline {
+    font-size: 56px;
+    font-weight: 450;
+    height: 120px;
+    width: 595px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    margin-top: 28px;
+    text-align: center;
+}
+
+.subhead {
+    margin-top: 15px;
+    font-weight: 400;
+    height: 32px;
+    text-align: center;
+    font-size: 28px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.button1 {
+    background-color: rgb(0, 113, 227);
+    border: none;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    height: 44px;
+    width: 122px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+}
+
+.iphone-image-container2 {
+    height: 730px;
+    background-image: url("iphone_large.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+.headline2 {
+    font-size: 56px;
+    font-weight: 450;
+
+    width: 595px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    margin-top: 28px;
+    text-align: center;
+    color: white;
+}
+
+.subhead2 {
+    margin-top: 20px;
+    font-weight: 400;
+    height: 32px;
+    text-align: center;
+    font-size: 28px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.button2 {
+    background-color: rgb(0, 113, 227);
+    border: none;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    height: 44px;
+    width: 131px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+    margin-right: 5px;
+}
+
+.button3 {
+    border: none;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    height: 44px;
+    width: 73px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+    margin-left: 5px;
+}
+
+.button2-3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
