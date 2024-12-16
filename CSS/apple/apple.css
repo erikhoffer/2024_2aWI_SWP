@@ -13,7 +13,7 @@
     padding-right: 20px;
     position: fixed;
     width: 100%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: saturate(1.8) blur(20px)
 }
 
@@ -35,7 +35,7 @@
     display: flex;
     justify-content: center;
     padding-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 
@@ -80,9 +80,14 @@
     border-style: solid;
     border-width: 1px;
     border-color: rgb(0, 113, 227);
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.iphone-image-container2 {
+.button1:hover {
+    opacity: 0.9;
+}
+
+.iphonepro-image-container {
     height: 730px;
     background-image: url("iphone_large.jpg");
     background-size: cover;
@@ -90,13 +95,12 @@
     display: flex;
     justify-content: center;
     padding-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
-.headline2 {
+.headline2-3 {
     font-size: 56px;
     font-weight: 450;
-
     width: 595px;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0 auto;
@@ -105,7 +109,7 @@
     color: white;
 }
 
-.subhead2 {
+.subhead2-3 {
     margin-top: 20px;
     font-weight: 400;
     height: 32px;
@@ -131,9 +135,83 @@
     border-width: 1px;
     border-color: rgb(0, 113, 227);
     margin-right: 5px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.button2:hover {
+    opacity: 0.9;
 }
 
 .button3 {
+    border: none;
+    font-size: 17px;
+    color: rgb(0, 113, 227);
+    text-align: center;
+    height: 44px;
+    width: 73px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+    margin-left: 5px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.button3:hover {
+    background-color: rgb(0, 113, 227);
+    color: white;
+}
+
+.button2-3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.iphone-image-container {
+    height: 730px;
+    background-image: url("blue-iphone_large.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 12px;
+}
+
+.button4-5 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.button4 {
+    background-color: white;
+    border: none;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    height: 44px;
+    width: 131px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-right: 5px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.button4:hover {
+    opacity: 0.9;
+}
+
+.button5 {
     border: none;
     font-size: 17px;
     color: white;
@@ -146,12 +224,531 @@
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(0, 113, 227);
+    border-color: white;
     margin-left: 5px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.button2-3 {
+.button5:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 580px 580px 580px;
+    gap: 12px;
+    padding: 0 24px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+
+.iPad-container {
+    background-image: url(iPad_large.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iPad-logo {
+    width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    margin-top: 58px;
+}
+
+.iPad-logo img {
+    height: 33px;
+}
+
+.iPad-subhead {
+    font-size: 21px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.iPad-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.iPad-button1 {
+    background-color: rgb(0, 113, 227);
+    border: none;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    height: 36px;
+    width: 104px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+    margin-right: 5px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.iPad-button1:hover {
+    opacity: 0.9;
+}
+
+.iPad-button2 {
+    border: none;
+    font-size: 14px;
+    color: rgb(0, 113, 227);
+    text-align: center;
+    height: 36px;
+    width: 62px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+    margin-left: 5px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.iPad-button2:hover {
+    background-color: rgb(0, 113, 227);
+    color: white;
+}
+
+.iPad-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.iPad_bottom-content {
+    font-size: 14px;
+    margin-bottom: 50px;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(94deg, rgb(0, 144, 247), rgb(186, 98, 252), rgb(242, 65, 107), rgb(245, 86, 0));
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 16px;
+}
+
+
+.AirPods-container {
+    background-image: url(AirPods_large.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    justify-content: end;
+    padding-bottom: 50px;
+}
+
+.AirPods-headline {
+    color: white;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+}
+
+.AirPods-subhead {
+    font-size: 21px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 11px;
+    text-align: center;
+    color: white;
+}
+
+.AirPod-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.AirPod-button1 {
+    background-color: rgb(0, 113, 227);
+    border: none;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    height: 36px;
+    width: 104px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+    margin-right: 5px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.AirPod-button1:hover {
+    opacity: 0.9;
+}
+
+.AirPod-button2 {
+    border: none;
+    font-size: 14px;
+    color: rgb(0, 113, 227);
+    text-align: center;
+    height: 36px;
+    width: 62px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+    margin-left: 5px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.AirPod-button2:hover {
+    background-color: rgb(0, 113, 227);
+    color: white;
+}
+
+.AirPod-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.Watch-container {
+    background-image: url(Watch_large.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Watch-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+}
+
+.Watch-logo img {
+    height: 57px;
+}
+
+.Watch-subhead {
+    font-size: 21px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.Watch-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.Watch-button1 {
+    background-color: rgb(0, 113, 227);
+    border: none;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    height: 36px;
+    width: 104px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+    margin-right: 5px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Watch-button1:hover {
+    opacity: 0.9;
+}
+
+.Watch-button2 {
+    border: none;
+    font-size: 14px;
+    color: rgb(0, 113, 227);
+    text-align: center;
+    height: 36px;
+    width: 62px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+    margin-left: 5px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Watch-button2:hover {
+    background-color: rgb(0, 113, 227);
+    color: white;
+}
+
+.Watch-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.MacBook-container {
+    background-image: url(MacBook_large.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    padding-bottom: 50px;
+}
+
+.MacBook-headline {
+    color: black;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+}
+
+.MacBook-subhead {
+    font-size: 21px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 11px;
+    text-align: center;
+    color: black;
+}
+
+.MacBook-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.MacBook-button1 {
+    background-color: rgb(0, 113, 227);
+    border: none;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    height: 36px;
+    width: 104px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+    margin-right: 5px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.MacBook-button1:hover {
+    opacity: 0.9;
+}
+
+.MacBook-button2 {
+    border: none;
+    font-size: 14px;
+    color: rgb(0, 113, 227);
+    text-align: center;
+    height: 36px;
+    width: 62px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+    margin-left: 5px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.MacBook-button2:hover {
+    background-color: rgb(0, 113, 227);
+    color: white;
+}
+
+.MacBook-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 58px;
+}
+
+
+.TradeIn-container {
+    background-image: url(tradein_large.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TradeIn-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+}
+
+.TradeIn-logo img {
+    height: 32px;
+}
+
+.TradeIn-subhead {
+    font-size: 21px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.TradeIn-button {
+    background-color: rgb(0, 113, 227);
+    border: none;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    height: 36px;
+    width: 145px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+    margin-right: 5px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 17px;
+}
+
+.TradeIn-button1:hover {
+    opacity: 0.9;
+}
+
+.TradeIn-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.Card-container {
+    background-image: url(Card_large.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Card-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+}
+
+.Card-logo img {
+    height: 33px;
+}
+
+.Card-subhead {
+    font-size: 21px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.Card-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.Card-button1 {
+    background-color: rgb(0, 113, 227);
+    border: none;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    height: 36px;
+    width: 104px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+    margin-right: 5px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Card-button1:hover {
+    opacity: 0.9;
+}
+
+.Card-button2 {
+    border: none;
+    font-size: 14px;
+    color: rgb(0, 113, 227);
+    text-align: center;
+    height: 36px;
+    width: 99px;
+    border-radius: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+    margin-left: 5px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Card-button2:hover {
+    background-color: rgb(0, 113, 227);
+    color: white;
+}
+
+.Card-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
