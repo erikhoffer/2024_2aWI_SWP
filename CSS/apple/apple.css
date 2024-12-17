@@ -29,7 +29,7 @@
 
 .image-container {
     height: 730px;
-    background-image: url("gift_large.jpg");
+    background-image: url("/Images/Pictures/gift_large.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -89,7 +89,7 @@
 
 .iphonepro-image-container {
     height: 730px;
-    background-image: url("iphone_large.jpg");
+    background-image: url("/Images/Pictures/iphone_large.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -173,7 +173,7 @@
 
 .iphone-image-container {
     height: 730px;
-    background-image: url("blue-iphone_large.jpg");
+    background-image: url("/Images/Pictures/blue-iphone_large.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -246,7 +246,7 @@
 }
 
 .iPad-container {
-    background-image: url(iPad_large.jpg);
+    background-image: url(/Images/Pictures/iPad_large.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -345,7 +345,7 @@
 
 
 .AirPods-container {
-    background-image: url(AirPods_large.jpg);
+    background-image: url(/Images/Pictures/AirPods_large.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -432,7 +432,7 @@
 
 
 .Watch-container {
-    background-image: url(Watch_large.jpg);
+    background-image: url(/Images/Pictures/Watch_large.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -520,7 +520,7 @@
 
 
 .MacBook-container {
-    background-image: url(MacBook_large.jpg);
+    background-image: url(/Images/Pictures/MacBook_large.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -535,6 +535,7 @@
     color: black;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 40px;
+    font-weight: 500;
 }
 
 .MacBook-subhead {
@@ -607,7 +608,7 @@
 
 
 .TradeIn-container {
-    background-image: url(tradein_large.jpg);
+    background-image: url(/Images/Pictures/tradein_large.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -667,7 +668,7 @@
 
 
 .Card-container {
-    background-image: url(Card_large.jpg);
+    background-image: url(/Images/Pictures/Card_large.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -751,4 +752,128 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+
+@media screen and (max-width: 1068px) {
+    .image-container {
+        background-image: url(/Images/Pictures/gift_medium.jpg);
+        height: 720px;
+    }
+
+    .headline {
+        font-size: 48px;
+        height: 104px;
+    }
+
+    .subhead {
+        font-size: 24px;
+    }
+
+    .iphonepro-image-container {
+        background-image: url(/Images/Pictures/iphone_medium.jpg);
+        height: 720px;
+    }
+
+    .headline2-3 {
+        font-size: 48px;
+    }
+
+    .subhead2-3 {
+        font-size: 24px;
+    }
+
+    .iphone-image-container {
+        background-image: url(/Images/Pictures/blue-iphone_medium.jpg);
+        height: 720px;
+    }
+
+    .grid-container {
+        grid-template-rows: 490px 490px 490px;
+    }
+
+    .iPad-container {
+        background-image: url(/Images/Pictures/iPad_medium.jpg);
+    }
+
+    .iPad-logo {
+        margin-top: 47px;
+    }
+
+    .iPad-logo img {
+        height: 26px;
+    }
+
+    .iPad-subhead {
+        font-size: 19px;
+    }
+
+    .iPad_bottom-content {
+        margin-bottom: 45px;
+    }
+
+    .AirPods-container {
+        background-image: url(/Images/Pictures/AirPods_medium.jpg);
+    }
+
+    .Watch-container {
+        background-image: url(/Images/Pictures/Watch_medium.jpg);
+    }
+
+    .Watch-logo {
+        margin-top: 47px;
+    }
+
+    .Watch-logo img {
+        height: 45px;
+    }
+
+    .Watch-subhead {
+        font-size: 19px;
+    }
+
+    .MacBook-container {
+        background-image: url(/Images/Pictures/MacBook_medium.jpg);
+    }
+
+    .MacBook-headline {
+        font-size: 32px;
+        height: 36px;
+    }
+
+    .MacBook-content {
+        margin-top: 47px;
+    }
+
+    .TradeIn-container {
+        background-image: url(/Images/Pictures/TradeIn_medium.jpg);
+    }
+
+    .TradeIn-logo {
+        margin-top: 47px;
+    }
+
+    .TradeIn-logo img {
+        height: 26px;
+    }
+
+    .TradeIn-subhead {
+        font-size: 19px;
+    }
+
+    .Card-container {
+        background-image: url(/Images/Pictures/Card_medium.jpg);
+    }
+
+    .Card-logo {
+        margin-top: 47px;
+    }
+
+    .Card-logo img {
+        height: 26px;
+    }
+
+    .Card-subhead {
+        font-size: 19px;
+    }
 }
