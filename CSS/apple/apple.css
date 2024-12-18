@@ -755,7 +755,7 @@
 }
 
 
-@media screen and (max-width: 1068px) {
+@media screen and (max-width: 1068px) and (min-width: 735px) {
     .image-container {
         background-image: url(/Images/Pictures/gift_medium.jpg);
         height: 720px;
@@ -875,5 +875,11 @@
 
     .Card-subhead {
         font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .header ul .main-list-element {
+        display: none;
     }
 }
