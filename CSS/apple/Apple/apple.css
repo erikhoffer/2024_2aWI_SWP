@@ -29,7 +29,7 @@
 
 .image-container {
     height: 730px;
-    background-image: url("/apple/Images/Pictures/gift_large.jpg");
+    background-image: url("Images/Pictures/gift_large.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -89,7 +89,7 @@
 
 .iphonepro-image-container {
     height: 730px;
-    background-image: url("/apple/Images/Pictures/iphone_large.jpg");
+    background-image: url("Images/Pictures/iphone_large.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -173,7 +173,7 @@
 
 .iphone-image-container {
     height: 730px;
-    background-image: url("/apple/Images/Pictures/blue-iphone_large.jpg");
+    background-image: url("Images/Pictures/blue-iphone_large.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -246,7 +246,7 @@
 }
 
 .iPad-container {
-    background-image: url(/apple/Images/Pictures/iPad_large.jpg);
+    background-image: url(Images/Pictures/iPad_large.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -345,7 +345,7 @@
 
 
 .AirPods-container {
-    background-image: url(/apple/Images/Pictures/AirPods_large.jpg);
+    background-image: url(Images/Pictures/AirPods_large.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -432,7 +432,7 @@
 
 
 .Watch-container {
-    background-image: url(/apple/Images/Pictures/Watch_large.jpg);
+    background-image: url(Images/Pictures/Watch_large.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -520,7 +520,7 @@
 
 
 .MacBook-container {
-    background-image: url(/apple/Images/Pictures/MacBook_large.jpg);
+    background-image: url(Images/Pictures/MacBook_large.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -608,7 +608,7 @@
 
 
 .TradeIn-container {
-    background-image: url(/apple/Images/Pictures/tradein_large.jpg);
+    background-image: url(Images/Pictures/tradein_large.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -668,7 +668,7 @@
 
 
 .Card-container {
-    background-image: url(/apple/Images/Pictures/Card_large.jpg);
+    background-image: url(Images/Pictures/Card_large.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -757,7 +757,7 @@
 
 @media screen and (max-width: 1068px) {
     .image-container {
-        background-image: url(/apple/Images/Pictures/gift_medium.jpg);
+        background-image: url(Images/Pictures/gift_medium.jpg);
         height: 720px;
     }
 
@@ -771,7 +771,7 @@
     }
 
     .iphonepro-image-container {
-        background-image: url(/apple/Images/Pictures/iphone_medium.jpg);
+        background-image: url(Images/Pictures/iphone_medium.jpg);
         height: 720px;
     }
 
@@ -784,7 +784,7 @@
     }
 
     .iphone-image-container {
-        background-image: url(/apple/Images/Pictures/blue-iphone_medium.jpg);
+        background-image: url(Images/Pictures/blue-iphone_medium.jpg);
         height: 720px;
     }
 
@@ -793,7 +793,7 @@
     }
 
     .iPad-container {
-        background-image: url(/apple/Images/Pictures/iPad_medium.jpg);
+        background-image: url(Images/Pictures/iPad_medium.jpg);
     }
 
     .iPad-logo {
@@ -813,11 +813,11 @@
     }
 
     .AirPods-container {
-        background-image: url(/apple/Images/Pictures/AirPods_medium.jpg);
+        background-image: url(Images/Pictures/AirPods_medium.jpg);
     }
 
     .Watch-container {
-        background-image: url(/apple/Images/Pictures/Watch_medium.jpg);
+        background-image: url(Images/Pictures/Watch_medium.jpg);
     }
 
     .Watch-logo {
@@ -833,7 +833,7 @@
     }
 
     .MacBook-container {
-        background-image: url(/apple/Images/Pictures/MacBook_medium.jpg);
+        background-image: url(Images/Pictures/MacBook_medium.jpg);
     }
 
     .MacBook-headline {
@@ -846,7 +846,7 @@
     }
 
     .TradeIn-container {
-        background-image: url(/apple/Images/Pictures/TradeIn_medium.jpg);
+        background-image: url(Images/Pictures/TradeIn_medium.jpg);
     }
 
     .TradeIn-logo {
@@ -862,7 +862,7 @@
     }
 
     .Card-container {
-        background-image: url(/apple/Images/Pictures/Card_medium.jpg);
+        background-image: url(Images/Pictures/Card_medium.jpg);
     }
 
     .Card-logo {
@@ -896,7 +896,7 @@
 
 @media screen and (max-width: 735px) {
     .image-container {
-        background-image: url(/Apple/Images/Pictures/gift_small.jpg);
+        background-image: url(Images/Pictures/gift_small.jpg);
         height: 500px;
     }
 
