@@ -6,5 +6,9 @@ if ((randomNumber1 < randomNumber2) && (randomNumber1 < 50)) {
 }
 
 if ((randomNumber1 < 30) || (randomNumber2 < 30)) {
+    console.log("Eine der beiden ist kleiner als 30")
+}
 
+if ((randomNumber1 < 50) && (randomNumber2 != 50)) {
+    console.log("Erste Zahl klein, zweite kein 50iger")
 }
