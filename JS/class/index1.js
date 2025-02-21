@@ -88,3 +88,36 @@ let string2 = 'Hallo';
 
 let string1 = string + string2;
 console.log('The result is: ' + result);
+
+//function
+function sum2(n1, n2) {
+    return n1 + n2
+}
+
+let n1 = 5;
+let n2 = 10;
+
+
+let resultSum = sum2(5, 10);
+
+//function kx + d, k = 10, d = 5;
+function linearStraight(x) {
+    return 10 * x + 5
+}
+
+sum2(10, 15);
+
+function log(text) {
+    console.log(text)
+    return
+}
+
+log('hallo welt')
+
+
+function log(text, repeat) {
+    for (let i = 1; i < repeat; i++) {
+        console.log(i + ': ' + text)
+    }
+    console.log(i);
+}
