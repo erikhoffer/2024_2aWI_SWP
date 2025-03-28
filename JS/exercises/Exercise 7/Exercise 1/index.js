@@ -5,9 +5,9 @@ let SumOfNumbers = 0;
 
 
 for (let i = 0; i <= 123; i++) {
-    if (x_n[i] % 2 == 0) {
+    if (x_n[i] % 2 == 0)
         SumOfNumbers += x_n[i];
-    }
 }
+
 
 console.log(SumOfNumbers);
