@@ -1,0 +1,11 @@
+.container {
+    border: 1px;
+    border-style: solid;
+}
+
+.Scores {
+    border: 1px;
+    border-style: solid;
+    padding: 16px;
+    margin: 15px;
+}
