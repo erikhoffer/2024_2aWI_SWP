@@ -1,4 +1,4 @@
-let input = "5 1 -2 -8 4 5";
+let input = "5 1 -2 -8 4 5";                    //mit Hilfe von Pius
 let zahlen = input.split(" ").map(Number);
 let Betragnumbers = zahlen.map(Betrag);
 
